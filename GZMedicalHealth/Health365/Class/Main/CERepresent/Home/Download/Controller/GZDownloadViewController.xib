@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GZDownloadViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="376-sN-jpL">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiazai-bj_" translatesAutoresizingMaskIntoConstraints="NO" id="IbG-3x-jTk">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="下载" translatesAutoresizingMaskIntoConstraints="NO" id="Ye0-yL-yk5">
+                            <rect key="frame" x="115" y="175" width="145" height="145"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="145" id="eaQ-WV-IaS"/>
+                                <constraint firstAttribute="height" constant="145" id="f0o-rc-a9T"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dcb-PE-wDG">
+                            <rect key="frame" x="0.0" y="350" width="375" height="317"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiazai_" translatesAutoresizingMaskIntoConstraints="NO" id="FBe-pw-QGY">
+                                    <rect key="frame" x="20" y="40" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="geG-rI-ta4"/>
+                                        <constraint firstAttribute="height" constant="20" id="j4e-aT-rwa"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APP下载说明" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YwH-Xq-Ysp">
+                                    <rect key="frame" x="50" y="40" width="108" height="20"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hongdian_" translatesAutoresizingMaskIntoConstraints="NO" id="BFr-lW-RLL">
+                                    <rect key="frame" x="25" y="85" width="10" height="10"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="10" id="KUA-I2-Dbf"/>
+                                        <constraint firstAttribute="height" constant="10" id="kmS-cT-p8z"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple手机用户请在appstore搜索 “健康365” App , 按照提示下载安装使用。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDO-x8-d3h">
+                                    <rect key="frame" x="40" y="80" width="320" height="36"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hongdian_" translatesAutoresizingMaskIntoConstraints="NO" id="Itl-nY-EoI">
+                                    <rect key="frame" x="25" y="136" width="10" height="10"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="2hW-8F-de3"/>
+                                        <constraint firstAttribute="width" constant="10" id="s3R-px-a2b"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLh-U2-ga0">
+                                    <rect key="frame" x="40" y="131" width="320" height="36"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="安卓手机用户请在应用宝市场搜索">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="“健康">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="365">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="”">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" APP ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=",">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="点击">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="普通下载">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="16" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="安装使用。">
+                                            <attributes>
+                                                <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="anzhuang_" translatesAutoresizingMaskIntoConstraints="NO" id="g94-FO-jCl">
+                                    <rect key="frame" x="25" y="192" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="CUR-R0-vpF"/>
+                                        <constraint firstAttribute="height" constant="20" id="pcN-GE-5gO"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APP安装说明" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrO-o7-2cB">
+                                    <rect key="frame" x="55" y="192" width="108" height="20"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hongdian_" translatesAutoresizingMaskIntoConstraints="NO" id="5Ah-Cw-a4i">
+                                    <rect key="frame" x="30" y="237" width="10" height="10"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="UHn-gZ-Q8U"/>
+                                        <constraint firstAttribute="width" constant="10" id="Vpf-BA-14J"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户正常下载APP后 , 请在初次安装时 , 根据提示升级软件至最新版本。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30f-jk-n6Z">
+                                    <rect key="frame" x="45" y="232" width="315" height="36"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="WLh-U2-ga0" secondAttribute="trailing" constant="15" id="3io-m9-Q43"/>
+                                <constraint firstItem="g94-FO-jCl" firstAttribute="leading" secondItem="Itl-nY-EoI" secondAttribute="leading" id="3oC-8w-8ep"/>
+                                <constraint firstItem="BFr-lW-RLL" firstAttribute="centerX" secondItem="FBe-pw-QGY" secondAttribute="centerX" id="6X3-yb-SOi"/>
+                                <constraint firstAttribute="trailing" secondItem="xDO-x8-d3h" secondAttribute="trailing" constant="15" id="6fy-G9-QEe"/>
+                                <constraint firstItem="5Ah-Cw-a4i" firstAttribute="top" secondItem="g94-FO-jCl" secondAttribute="bottom" constant="25" id="8t1-k2-K9c"/>
+                                <constraint firstItem="WLh-U2-ga0" firstAttribute="top" secondItem="Itl-nY-EoI" secondAttribute="top" constant="-5" id="F5n-9c-uvr"/>
+                                <constraint firstItem="g94-FO-jCl" firstAttribute="top" secondItem="UrO-o7-2cB" secondAttribute="top" id="GSS-C1-pu9"/>
+                                <constraint firstItem="FBe-pw-QGY" firstAttribute="top" secondItem="dcb-PE-wDG" secondAttribute="top" constant="40" id="Ggz-tl-tXn"/>
+                                <constraint firstItem="g94-FO-jCl" firstAttribute="top" secondItem="WLh-U2-ga0" secondAttribute="bottom" constant="25" id="IHZ-0h-OtL"/>
+                                <constraint firstItem="5Ah-Cw-a4i" firstAttribute="centerX" secondItem="g94-FO-jCl" secondAttribute="centerX" id="L3z-eO-W3Z"/>
+                                <constraint firstItem="YwH-Xq-Ysp" firstAttribute="leading" secondItem="FBe-pw-QGY" secondAttribute="trailing" constant="10" id="MUg-8J-63C"/>
+                                <constraint firstItem="xDO-x8-d3h" firstAttribute="leading" secondItem="BFr-lW-RLL" secondAttribute="trailing" constant="5" id="Nsm-g3-sYn"/>
+                                <constraint firstItem="Itl-nY-EoI" firstAttribute="leading" secondItem="BFr-lW-RLL" secondAttribute="leading" id="Pag-dc-dnZ"/>
+                                <constraint firstItem="FBe-pw-QGY" firstAttribute="leading" secondItem="dcb-PE-wDG" secondAttribute="leading" constant="20" id="Pam-Bw-v7r"/>
+                                <constraint firstItem="YwH-Xq-Ysp" firstAttribute="bottom" secondItem="FBe-pw-QGY" secondAttribute="bottom" id="PfO-B0-Jvo"/>
+                                <constraint firstItem="WLh-U2-ga0" firstAttribute="leading" secondItem="Itl-nY-EoI" secondAttribute="trailing" constant="5" id="U3O-8G-oNL"/>
+                                <constraint firstItem="Itl-nY-EoI" firstAttribute="top" secondItem="xDO-x8-d3h" secondAttribute="bottom" constant="20" id="UIG-Mf-FzE"/>
+                                <constraint firstItem="xDO-x8-d3h" firstAttribute="top" secondItem="BFr-lW-RLL" secondAttribute="top" constant="-5" id="Wi6-6k-lmY"/>
+                                <constraint firstItem="30f-jk-n6Z" firstAttribute="leading" secondItem="5Ah-Cw-a4i" secondAttribute="trailing" constant="5" id="hPV-WW-QnE"/>
+                                <constraint firstAttribute="trailing" secondItem="30f-jk-n6Z" secondAttribute="trailing" constant="15" id="ksw-s2-t0s"/>
+                                <constraint firstItem="30f-jk-n6Z" firstAttribute="top" secondItem="5Ah-Cw-a4i" secondAttribute="top" constant="-5" id="kvi-Wy-4S8"/>
+                                <constraint firstItem="BFr-lW-RLL" firstAttribute="top" secondItem="YwH-Xq-Ysp" secondAttribute="bottom" constant="25" id="njt-JD-hfm"/>
+                                <constraint firstItem="YwH-Xq-Ysp" firstAttribute="top" secondItem="FBe-pw-QGY" secondAttribute="top" id="tgB-ez-d7z"/>
+                                <constraint firstItem="g94-FO-jCl" firstAttribute="bottom" secondItem="UrO-o7-2cB" secondAttribute="bottom" id="wvM-Si-jwQ"/>
+                                <constraint firstItem="UrO-o7-2cB" firstAttribute="leading" secondItem="g94-FO-jCl" secondAttribute="trailing" constant="10" id="xuJ-pB-LqZ"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDs-MX-ZfB">
+                            <rect key="frame" x="0.0" y="30" width="50" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="4mU-Xg-9t3"/>
+                                <constraint firstAttribute="height" constant="30" id="GAG-nT-8vk"/>
+                            </constraints>
+                            <state key="normal" image="barbuttoniconWhiteBack"/>
+                            <connections>
+                                <action selector="popEvents:" destination="-1" eventType="touchUpInside" id="6HW-i4-4Ga"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="扫描二维码下载APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4E-iU-fdK">
+                            <rect key="frame" x="115" y="330" width="145" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="dcb-PE-wDG" secondAttribute="bottom" id="2dx-7s-MKc"/>
+                        <constraint firstItem="wDs-MX-ZfB" firstAttribute="top" secondItem="376-sN-jpL" secondAttribute="top" constant="30" id="2gF-D9-2ko"/>
+                        <constraint firstItem="IbG-3x-jTk" firstAttribute="leading" secondItem="376-sN-jpL" secondAttribute="leading" id="4fF-BH-nbx"/>
+                        <constraint firstItem="Ye0-yL-yk5" firstAttribute="centerX" secondItem="IbG-3x-jTk" secondAttribute="centerX" id="Cs4-Ma-kUD"/>
+                        <constraint firstItem="M4E-iU-fdK" firstAttribute="centerX" secondItem="IbG-3x-jTk" secondAttribute="centerX" id="Rcy-1D-PPZ"/>
+                        <constraint firstItem="IbG-3x-jTk" firstAttribute="top" secondItem="376-sN-jpL" secondAttribute="top" id="ai1-lr-ALb"/>
+                        <constraint firstItem="wDs-MX-ZfB" firstAttribute="leading" secondItem="376-sN-jpL" secondAttribute="leading" id="am4-kY-14c"/>
+                        <constraint firstItem="Ye0-yL-yk5" firstAttribute="top" secondItem="376-sN-jpL" secondAttribute="top" constant="175" id="drT-oq-k8L"/>
+                        <constraint firstItem="M4E-iU-fdK" firstAttribute="top" secondItem="Ye0-yL-yk5" secondAttribute="bottom" constant="10" id="geS-IC-mHx"/>
+                        <constraint firstItem="dcb-PE-wDG" firstAttribute="top" secondItem="M4E-iU-fdK" secondAttribute="bottom" id="hFX-Xy-sbs"/>
+                        <constraint firstAttribute="trailing" secondItem="IbG-3x-jTk" secondAttribute="trailing" id="iel-68-ffu"/>
+                        <constraint firstAttribute="bottom" secondItem="IbG-3x-jTk" secondAttribute="bottom" id="qzY-xh-Cez"/>
+                        <constraint firstItem="dcb-PE-wDG" firstAttribute="leading" secondItem="376-sN-jpL" secondAttribute="leading" id="vPS-2I-EDS"/>
+                        <constraint firstAttribute="trailing" secondItem="dcb-PE-wDG" secondAttribute="trailing" id="xL5-HH-2Au"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="376-sN-jpL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1lL-Sj-WgF"/>
+                <constraint firstItem="376-sN-jpL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="A2z-Sy-szX"/>
+                <constraint firstItem="376-sN-jpL" firstAttribute="bottom" secondItem="Wu3-Lw-6ZS" secondAttribute="bottom" id="ShQ-2B-QUu"/>
+                <constraint firstItem="Wu3-Lw-6ZS" firstAttribute="trailing" secondItem="376-sN-jpL" secondAttribute="trailing" id="pmh-HF-2IT"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Wu3-Lw-6ZS"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="anzhuang_" width="18" height="19"/>
+        <image name="barbuttoniconWhiteBack" width="15" height="30"/>
+        <image name="hongdian_" width="16" height="16"/>
+        <image name="xiazai-bj_" width="375" height="668"/>
+        <image name="xiazai_" width="21" height="18"/>
+        <image name="下载" width="250" height="250"/>
+    </resources>
+</document>

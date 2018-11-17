@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>更换手机号</string>
+		<key>controller</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>联系我们</string>
+		<key>controller</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>消息推送通知</string>
+		<key>controller</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>清除缓存</string>
+		<key>controller</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>版本更新</string>
+		<key>controller</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

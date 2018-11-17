@@ -1,0 +1,6 @@
+framework module Pods_GZMedicalHealth_GZMedicalHealthUITests {
+  umbrella header "Pods-GZMedicalHealth-GZMedicalHealthUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

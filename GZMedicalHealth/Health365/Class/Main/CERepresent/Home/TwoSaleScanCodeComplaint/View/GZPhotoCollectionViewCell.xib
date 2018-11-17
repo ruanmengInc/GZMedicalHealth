@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GZPhotoCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="163" height="132"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="163" height="132"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CZo-Rz-Rds">
+                        <rect key="frame" x="0.0" y="0.0" width="163" height="132"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2q-Qj-way">
+                        <rect key="frame" x="129" y="4" width="30" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="3uJ-zD-RqG"/>
+                            <constraint firstAttribute="width" constant="30" id="y3U-qo-77r"/>
+                        </constraints>
+                        <state key="normal" image="qingchu_"/>
+                        <connections>
+                            <action selector="deleteBtn:" destination="gTV-IL-0wX" eventType="touchUpInside" id="SQU-2b-QDP"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="CZo-Rz-Rds" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Y7O-oJ-2yh"/>
+                <constraint firstAttribute="bottom" secondItem="CZo-Rz-Rds" secondAttribute="bottom" id="gZf-7f-J0p"/>
+                <constraint firstAttribute="trailing" secondItem="CZo-Rz-Rds" secondAttribute="trailing" id="oOS-cc-WZF"/>
+                <constraint firstItem="p2q-Qj-way" firstAttribute="trailing" secondItem="CZo-Rz-Rds" secondAttribute="trailing" constant="-4" id="pgO-Mv-MjV"/>
+                <constraint firstItem="CZo-Rz-Rds" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wwY-GE-I8m"/>
+                <constraint firstItem="p2q-Qj-way" firstAttribute="top" secondItem="CZo-Rz-Rds" secondAttribute="top" constant="4" id="yhw-yP-swr"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="163" height="132"/>
+            <connections>
+                <outlet property="photoImgV" destination="CZo-Rz-Rds" id="TTI-cn-RID"/>
+            </connections>
+            <point key="canvasLocation" x="-9.5" y="68"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="qingchu_" width="20" height="20"/>
+    </resources>
+</document>

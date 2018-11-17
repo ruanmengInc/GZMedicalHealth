@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GZTwoSaleScanCodeViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1UD-cp-rfz">
+                    <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                    <subviews>
+                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXq-NU-Upy">
+                            <rect key="frame" x="30" y="22" width="142.5" height="56"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="p9u-7I-tT9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="-2" maxX="0.0" maxY="2"/>
+                            <state key="normal" title="继续扫描" backgroundImage="anniu2_"/>
+                            <connections>
+                                <action selector="popEvents:" destination="-1" eventType="touchUpInside" id="YyX-3F-goS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eO4-8j-bi0">
+                            <rect key="frame" x="202.5" y="22" width="142.5" height="56"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="-2" maxX="0.0" maxY="2"/>
+                            <state key="normal" title="去投诉" backgroundImage="anniu3_"/>
+                            <connections>
+                                <action selector="popEvents:" destination="-1" eventType="touchUpInside" id="1qu-hk-oiT"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="eO4-8j-bi0" secondAttribute="trailing" constant="30" id="Shp-YZ-GSS"/>
+                        <constraint firstAttribute="height" constant="100" id="TcJ-qQ-Hq8"/>
+                        <constraint firstItem="UXq-NU-Upy" firstAttribute="width" secondItem="eO4-8j-bi0" secondAttribute="width" id="W1c-ZU-vEO"/>
+                        <constraint firstItem="eO4-8j-bi0" firstAttribute="bottom" secondItem="UXq-NU-Upy" secondAttribute="bottom" id="ePi-iu-Q9G"/>
+                        <constraint firstItem="UXq-NU-Upy" firstAttribute="centerY" secondItem="1UD-cp-rfz" secondAttribute="centerY" id="fSL-sQ-J3j"/>
+                        <constraint firstItem="UXq-NU-Upy" firstAttribute="leading" secondItem="1UD-cp-rfz" secondAttribute="leading" constant="30" id="lIb-7q-svl"/>
+                        <constraint firstItem="eO4-8j-bi0" firstAttribute="leading" secondItem="UXq-NU-Upy" secondAttribute="trailing" constant="30" id="nW4-tU-wfw"/>
+                        <constraint firstItem="eO4-8j-bi0" firstAttribute="top" secondItem="UXq-NU-Upy" secondAttribute="top" id="t26-do-hIu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="1UD-cp-rfz" secondAttribute="bottom" id="9yk-l0-5w9"/>
+                <constraint firstItem="1UD-cp-rfz" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="YQ6-94-8OO"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="1UD-cp-rfz" secondAttribute="trailing" id="zYk-2R-sQm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="anniu2_" width="156" height="66"/>
+        <image name="anniu3_" width="156" height="66"/>
+    </resources>
+</document>

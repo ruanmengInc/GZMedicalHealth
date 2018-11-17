@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="59" id="KGk-i7-Jjw" customClass="GZCERepresentMonthlyAchievementsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="riqi_" translatesAutoresizingMaskIntoConstraints="NO" id="8mF-Kw-bZM">
+                        <rect key="frame" x="15" y="19" width="30" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="gdk-QZ-u3w"/>
+                            <constraint firstAttribute="height" constant="22" id="tfi-8D-xiD"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53Z-Ok-3PY">
+                        <rect key="frame" x="55" y="30" width="0.0" height="0.0"/>
+                        <constraints>
+                            <constraint firstAttribute="width" priority="750" constant="80" id="ZFR-QS-twY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8G-m3-v6a">
+                        <rect key="frame" x="196" y="30" width="80" height="0.0"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="acC-gI-fZS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.85882352939999995" green="0.72941176470000002" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="M8G-m3-v6a" firstAttribute="centerY" secondItem="53Z-Ok-3PY" secondAttribute="centerY" id="2Tg-Je-pFD"/>
+                    <constraint firstItem="8mF-Kw-bZM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="8jC-1O-FdU"/>
+                    <constraint firstItem="M8G-m3-v6a" firstAttribute="leading" secondItem="53Z-Ok-3PY" secondAttribute="trailing" priority="750" constant="15" id="ENc-bS-D2l"/>
+                    <constraint firstItem="53Z-Ok-3PY" firstAttribute="centerY" secondItem="8mF-Kw-bZM" secondAttribute="centerY" id="R8c-yP-fDp"/>
+                    <constraint firstItem="53Z-Ok-3PY" firstAttribute="leading" secondItem="8mF-Kw-bZM" secondAttribute="trailing" constant="10" id="SqL-9X-v2i"/>
+                    <constraint firstAttribute="trailing" secondItem="M8G-m3-v6a" secondAttribute="trailing" constant="10" id="hc6-xf-5Qw"/>
+                    <constraint firstItem="8mF-Kw-bZM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zff-4E-Wmo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+            <connections>
+                <outlet property="jifenLa" destination="M8G-m3-v6a" id="aVt-zO-R01"/>
+                <outlet property="riqiImgV" destination="8mF-Kw-bZM" id="SCW-5P-hns"/>
+                <outlet property="titleLab" destination="53Z-Ok-3PY" id="foM-Xc-Hfz"/>
+            </connections>
+            <point key="canvasLocation" x="41.600000000000001" y="53.523238380809602"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="riqi_" width="16" height="17"/>
+    </resources>
+</document>

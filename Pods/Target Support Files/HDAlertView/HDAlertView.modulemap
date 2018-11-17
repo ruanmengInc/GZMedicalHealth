@@ -1,0 +1,6 @@
+framework module HDAlertView {
+  umbrella header "HDAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
